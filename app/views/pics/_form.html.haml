@@ -7,7 +7,7 @@
             %ul
                 - @pic.errors.full_messages.each do |msg|
                     %li= msg
-
+    = f.input :image, class: 'form-control btn btn-raised ripple-effect btn-primary'
     .form-group
         = f.input :title, input_html: { class: 'form-control' }
     .form-group

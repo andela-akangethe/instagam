@@ -1,5 +1,5 @@
-%h2 Edit Pic!
-
+.img-padding
+  %h2 Edit Pic!
+  = image_tag @pic.image.url(:medium)
 = render 'form'
-
 = link_to 'Cancel', pic_path
