@@ -16,4 +16,5 @@
 //= require bootstrap.min
 //= require material.min
 //= require ripples.min
+//= require masonry/jquery.masonry
 //= require_tree .
