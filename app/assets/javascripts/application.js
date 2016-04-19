@@ -12,9 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require bootstrap.min
-//= require material.min
-//= require ripples.min
+//= require bootstrap-sprockets
 //= require masonry/jquery.masonry
+//= require turbolinks
 //= require_tree .

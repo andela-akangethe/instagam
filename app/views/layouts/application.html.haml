@@ -18,7 +18,7 @@
 
         %ul.nav.navbar-nav.navbar-right
           - if user_signed_in?
-            %li= link_to "Gram It!", new_pic_path
+            %li= link_to "Gam It", new_pic_path
             %li= link_to "Settings", edit_user_registration_path
             %li= link_to "Sign Out", destroy_user_session_path, method: :delete
 
@@ -29,7 +29,3 @@
     -flash.each do |name, msg|
       =content_tag :div, msg, class: 'alert alert-info'
     = yield
-  :javascript
-    $(document).ready(function() {
-      $.material.init();
-    });
